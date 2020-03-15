@@ -1,2 +1,2 @@
 # ruby_twitter
-## RubyとTwitterAPIを使っていろいろ遊んでみた
+RubyとTwitterAPIを使っていろいろ遊んでみた

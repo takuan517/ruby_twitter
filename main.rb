@@ -1,17 +1,17 @@
 require 'twitter'
 
 client = Twitter::REST::Client.new do |config|
-  config.consumer_key        = "Qd0EoEeVw2D8IwaJnBYYqD108"
-  config.consumer_secret     = "JmlgWeOxKTkDfenSZZVchpwCUlUl70Q85wet8MD7Hxz9saHpoj"
-  config.access_token        = "708208212026085377-3DjVkp6anYkO7euR3zCCYGSpiXzVbSH"
-  config.access_token_secret = "hecArHOTLKSXbr9orc4riMFJ7VZddLO2z1Nt2sOKV6Kp1"
+  config.consumer_key        = ""
+  config.consumer_secret     = ""
+  config.access_token        = ""
+  config.access_token_secret = ""
 end
 
 stream_client = Twitter::Streaming::Client.new do |config|
-  config.consumer_key        = "Qd0EoEeVw2D8IwaJnBYYqD108"
-  config.consumer_secret     = "JmlgWeOxKTkDfenSZZVchpwCUlUl70Q85wet8MD7Hxz9saHpoj"
-  config.access_token        = "708208212026085377-3DjVkp6anYkO7euR3zCCYGSpiXzVbSH"
-  config.access_token_secret = "hecArHOTLKSXbr9orc4riMFJ7VZddLO2z1Nt2sOKV6Kp1"
+  config.consumer_key        = ""
+  config.consumer_secret     = ""
+  config.access_token        = ""
+  config.access_token_secret = ""
 end
 
 #client.update("rubyでtwitter apiいじってみた")

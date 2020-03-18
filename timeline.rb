@@ -14,7 +14,6 @@ stream_client = Twitter::Streaming::Client.new do |config|
   config.access_token_secret = "hecArHOTLKSXbr9orc4riMFJ7VZddLO2z1Nt2sOKV6Kp1"
 end
 
-#client.update("rubyでtwitter apiいじってみた")
 client.home_timeline.each do |tweet|
     puts tweet.user.screen_name + ':' + tweet.text
 end
